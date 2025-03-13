@@ -1,0 +1,33 @@
+.bg-login {
+    background: #691c31;
+}
+
+.subtitle-docentes {
+    color: #efaa34;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Texto blanco por defecto */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #efaa34 !important; /* Cambia el color del texto al pasar el mouse */
+}
+
+/* Opcional: agregar hover en los items de navegación */
+.navbar-nav .nav-item:hover {
+    color: #efaa34;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #efaa34 !important
+}
+
+.container-home {
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    height: 800px;            /* Adjust the height to your needs */
+    text-align: center;       /* Center text within the div */
+}
