@@ -26,8 +26,10 @@
 
 .container-home {
     display: flex;
-    justify-content: center;  /* Horizontally center the content */
-    align-items: center;      /* Vertically center the content */
-    height: 800px;            /* Adjust the height to your needs */
-    text-align: center;       /* Center text within the div */
+    align-items: center;
+    justify-content: center;
+    height: 58vh; /* Ajusta la altura si es necesario */
 }
+
+
+
